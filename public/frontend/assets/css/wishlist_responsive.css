@@ -1,0 +1,174 @@
+@media (max-width: 992px){
+    header{
+            display: none;
+        }
+
+        #heading_page{  
+            width: 100%;
+            padding-top: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            text-align: start;
+        }
+
+        #heading_page .breadcrumb {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #heading_page .breadcrumb h4{
+            padding-top: 5px;
+        }
+
+        #wishlist{
+            width: 100%;
+            padding: 5px;
+        }
+
+        #wishlist .container{
+            width: 100%;
+        }
+
+        #wishlist .row{
+            width: 100%;
+            transform: translateX(14px);
+            padding: 10px;
+        }
+
+        #wishlist .heading{
+            padding: 20px;
+        }
+        
+        #wishlist .heading h4{
+            font-size: 20px;
+        }
+
+        #wishlist .row hr{
+            transform: translateX(-2px);
+        }
+
+        #wishlist .row .info{
+            width: 33%;
+            height: 70px;
+            padding-top: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        }
+
+        #wishlist .row{
+            box-shadow: rgba(0, 0, 0, 0.23) 10px 4px 12px;
+        }
+
+        #wishlist .row .info h4{
+            font-size: 12px;
+        }
+
+        #wishlist .row .product{
+            width: 33%;
+            height: 170px;
+            display: block;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+
+        #wishlist .row .product .image{
+            transform: translateX(-10px);
+            width: 33%;
+        }
+
+        #wishlist .row .product .image img{
+            height: 100px;
+        }
+
+        #wishlist .row .product h4{
+            font-size: 12px;
+            padding-left: 2px;
+            padding-top: 10px;
+        }
+
+        #wishlist .row .Price{
+            width: 33%;
+            height: 170px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+
+        #wishlist .row .Price h4{
+            padding-top: 50px;
+            font-size: 12px;
+        }
+
+        #wishlist .row .Price del{
+            font-size: 12px;
+            padding-left: 0%;
+        }
+
+        #wishlist .row .stock{
+            width: 33%;
+            height: 170px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+
+        #wishlist .row .stock .btn{
+            width: 60px;
+            height: 25px;
+            box-shadow: rgba(0, 0, 0, 0.23) 10px 4px 12px;
+        }
+
+        #wishlist .row .stock .btn h4{
+            font-size: 10px;
+        }
+
+        #wishlist .row .cart{
+            padding-top: 20px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #wishlist .row .cart .stock_btn{
+            width: 120px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.23) 10px 4px 12px;
+            font-size: 10px;
+        }
+
+        #wishlist .row .cart .out-stock_btn{
+            width: 120px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.23) 10px 4px 12px;
+            font-size: 10px;
+        }
+
+        #wishlist .row .cart .cross span{
+            box-shadow: rgba(0, 0, 0, 0.23) 10px 4px 12px;
+        }
+
+        #wishlist .row .social_media{
+            transform: translateX(80px);
+            width: 50%;
+        }
+
+        #wishlist .row .social_media span{
+            width: 30px;
+            height: 30px;
+        }
+
+    }

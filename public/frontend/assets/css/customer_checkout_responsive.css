@@ -1,0 +1,103 @@
+@media (max-width: 992px){
+    header{
+            display: none;
+        }
+
+        #heading_page{  
+            width: 100%;
+            padding-top: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            text-align: start;
+        }
+
+        #heading_page .breadcrumb {
+            display: flex ;
+            justify-content: center ;
+            align-items: center ;
+            text-align: center;
+        }
+
+        #heading_page .breadcrumb a{
+            margin-bottom: 3px;
+        }
+
+        #heading_page .breadcrumb h4{
+            padding-top: 5px;
+        }
+
+        #customer .billing_address{
+            width: 100%;
+        }
+
+        #customer .order_summery{
+            width: 100%;
+        }
+
+        #customer .order_summery .col-xl-7{
+            width: 80%;
+        }
+
+        #customer .order_summery .col-xl-7 h6{
+            margin-top: 10px;
+        }
+
+        #customer .order_summery .col-xl-5{
+            width: 20%;
+            margin-right: 0px;
+            text-align: start;
+        }
+
+        #customer .order_summery .info1{
+            width: 80%;
+        }
+
+        #customer .order_summery .total{
+            width: 20%;
+        }
+
+        #customer .order_summery .total h4{
+            text-align: end;
+        }
+
+        #customer .order_summery .total input{
+            width: 50px;
+        }
+
+        #customer .order_summery .info_total{
+            width: 80%;
+        }
+
+        #customer .order_summery .amount_total{
+            width: 20%;
+        }
+
+        #customer .order_summery .amount_total h4{
+            text-align: end;
+        }
+
+        #customer .order_summery .amount_total input{
+            width: 50px;
+        }
+
+        #customer .order_summery .payment .type .radio-label_payment .custom-radio_payment{
+            width: 15px;
+            height: 15px;
+        }
+
+        #customer .order_summery .payment .type .radio-label_payment .ticktype:checked + .custom-radio_payment::after{
+            width: 7px;
+            height: 7px;
+        }
+
+        #customer .order_summery .payment .type h4{
+            font-size: 12px;
+        }
+
+        #customer .order_summery .btn{
+            padding:7px; 
+            font-size: 12px;
+
+        }
+    }

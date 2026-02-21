@@ -1,0 +1,161 @@
+:root{
+    --gren-gray-scale-900: #002603;
+    --gren-gray-scale-800: #173b1a;
+    --gren-gray-scale-700: #2b572e;
+    --gren-gray-scale-600: #406b42;
+    --gren-gray-scale-500: #618062;
+    --gren-gray-scale-400: #7a997c;
+    --gren-gray-scale-300: #96b297;
+    --gren-gray-scale-200: #b4ccb4;
+    --gren-gray-scale-100: #dae5da;
+    --gren-gray-scale-50: #edf2ee;
+    --gray-scale-gray--900: #1a1a1a;
+    --gray-scale-gray--800: #333;
+    --gray-scale-gray--700: #4d4d4d;
+    --gray-scale-gray--600: #666;
+    --gray-scale-gray--500: #808080;
+    --gray-scale-gray--400: #999;
+    --gray-scale-gray--300: #b3b3b3;
+    --gray-scale-gray--200: #ccc;
+    --gray-scale-gray--100: #e6e6e6;
+    --gray-scale-gray--50: #f2f2f2;
+    --gray-scale-white: #fff;
+    --branding-success-bright: #84d187;
+    --branding-success: #00b207;
+    --branding-success-dark: #2c742f;
+    --branding-warning: #ff8a00;
+    --branding-error: #ea4b48;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Segoe Script", sans-serif;
+    --third-family: "Dancing Script", sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+#contact{
+    padding: 100px;
+}
+
+
+
+#contact .container .info{
+    border-radius: 8px;
+    padding: 0px 20px;
+    width: 312px;
+    height: 507px;
+    box-shadow: 0 0 56px 0 rgba(0, 38, 3, 0.08);
+    background: var(--gray-scale-white);
+}
+
+#contact .container .cart{
+    border-radius: 10px;
+    padding: 24px 0px;
+    width: 272px;
+    height: 169px;
+}
+
+#contact .container .cart h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact .container .cart a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    color: var(--gray-scale-gray--800);
+}
+
+#contact .container .message{
+    border-radius: 8px;
+    width: 984px;
+    height: 507px;
+    box-shadow: 0 0 56px 0 rgba(0, 38, 3, 0.08);
+    background: var(--gray-scale-white);
+    padding: 50px;
+}
+
+#contact .container .message h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#contact .container .message p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--500);
+}
+
+#contact .container .message .input input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 434px;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#contact .container .message .text{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 870px;
+    height: 49px;
+    background: var(--gray-scale-white);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#contact .container .message input:focus{
+    border-color: #22c55e;
+    outline: none;
+}
+
+#contact .container .message textarea{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 870px;
+    height: 98px;
+    background: var(--gray-scale-white);
+    margin-bottom: 15px;
+}
+
+#contact .container .message textarea:focus{
+    border-color: #22c55e;
+    outline: none;
+}
+
+#contact .container .message button{
+    border-radius: 43px;
+    padding: 16px 40px;
+    width: 199px;
+    height: 51px;
+    background: var(--branding-success);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--gray-scale-white);
+    border: none;
+    cursor: pointer;
+}
+
+#contact .container .message button:hover {
+        background: #218838;
+}
+

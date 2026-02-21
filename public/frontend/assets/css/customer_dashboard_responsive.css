@@ -1,0 +1,67 @@
+@media (max-width: 992px){
+    header{
+            display: none;
+        }
+
+        #heading_page{  
+            width: 100%;
+            padding-top: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            text-align: start;
+        }
+
+        #heading_page .breadcrumb {
+            display: flex ;
+            justify-content: center ;
+            align-items: center ;
+            text-align: center;
+        }
+
+        #heading_page .breadcrumb h4{
+            padding-top: 5px;
+        }
+
+        #customer .dashboard_menu .customer_navigation{
+            margin-top: 0px;
+        }
+
+        #customer .container .row{
+            box-shadow: none;
+        }
+
+        #customer .profile_part .customer_profile h4{
+            font-size: 16px;
+        }
+
+        #customer .profile_part .customer_profile p{
+            font-size: 10px;
+        }
+
+        #customer .profile_part .customer_profile a{
+            font-size: 12px;
+        }
+
+        #customer .customer_orders .card-header h4{
+            font-size: 12px;
+        }
+
+        #customer .customer_orders .card-header a{
+            font-size: 12px;
+        }
+
+        #customer .customer_orders .card .table thead tr th{
+            font-size: 8px;
+        }
+
+        #customer .customer_orders .card .table tbody tr td{
+            font-size: 8px;
+        }
+
+        #customer .customer_orders .card .table tbody tr td a{
+            font-size: 8px;
+        }
+
+
+}

@@ -1,0 +1,29 @@
+@media (max-width: 992px){
+    header{
+            display: none;
+        }
+
+    #registration{
+        width: 100%;
+        padding: 5px;
+    }
+
+    #registration .registration-page {
+        width: 100%;
+        height: 100%;
+    }
+
+    .form {
+        background: #ffffff;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .form button {
+        padding: 14px 32px;
+        width: 100%;
+        height: 45px;
+    }
+}
