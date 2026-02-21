@@ -1,0 +1,10 @@
+1. For backend default account is "test@example.com" and the password is "password"
+
+//Note: without logging to this account you would not be able to see role and permissions in backend. In order to see it you should loging to this account first and then be able to change the permissions and roles 
+of an account.//
+
+
+2. For database fb.sql is provided in database->backup named folder
+
+3. For frontend logged in customer's order to work customer's information should be filled first in checkout page if it is not added in setting page, otherwise order will not be placed.
+
