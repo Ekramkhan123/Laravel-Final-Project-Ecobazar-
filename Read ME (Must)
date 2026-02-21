@@ -6,6 +6,4 @@ of an account.//
 
 2. For database fb.sql is provided in database->backup named folder
 
-3. For frontend logged in customer's order to work customer's information should be filled first in checkout page if it is not added in setting page, otherwise order will not be placed.
-
-4. All the passwords are same as email except test@example.com
+3. All the passwords are same as email except test@example.com
