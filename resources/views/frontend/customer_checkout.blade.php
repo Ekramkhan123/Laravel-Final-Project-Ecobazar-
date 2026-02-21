@@ -47,18 +47,24 @@
                                     <label for="name">Name</label>
                                     <br>
                                     <input name="fname" type="text" value="{{ old('fname', $customer->fname) }}">
+<<<<<<< HEAD
                                     @error('fname')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 
                                 <div class="col-xl-4">
                                     <label for="lname">Last name</label>
                                     <br>
                                     <input name="lname" type="text" value="{{ old('lname', $customer->lname) }}">
+<<<<<<< HEAD
                                     @error('lname')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 <div class="col-xl-4">
                                     <label for="company_name">Company Name <span>(optional)</span></label>
@@ -71,51 +77,69 @@
                                     <label for="street_address">Street Address</label>
                                     <br>
                                     <input name="street_address" type="text" value="{{ old('street_address', $customer->street_address) }}">
+<<<<<<< HEAD
                                     @error('street_address')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 
                                 <div class="col-xl-4">
                                     <label for="country">Country / Region</label>
                                     <br>
                                     <input name="country" type="text" value="{{ old('country', $customer->country) }}">
+<<<<<<< HEAD
                                     @error('country')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 <div class="col-xl-4">
                                     <label for="state">States</label>
                                     <br>
                                     <input name="state" type="text" value="{{ old('state', $customer->state) }}">
+<<<<<<< HEAD
                                     @error('state')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 <div class="col-xl-4">
                                     <label for="postcode">Zip Code</label>
                                     <br>
                                     <input name="postcode" type="number" value="{{ old('postcode', $customer->postcode) }}">
+<<<<<<< HEAD
                                     @error('postcode')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 
                                 <div class="col-xl-6">
                                     <label for="email">Email</label>
                                     <br>
                                     <input name="email" type="email" value="{{ old('email', $customer->email) }}">
+<<<<<<< HEAD
                                     @error('email')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 <div class="col-xl-6">
                                     <label for="phone">Phone</label>
                                     <br>
                                     <input name="phone" type="text" value="{{ old('phone', $customer->phone) }}">
+<<<<<<< HEAD
                                     @error('phone')
                                         <p class="text-danger">{{ $message }}</p>
                                     @enderror
+=======
+>>>>>>> 55151a93ff55d93cc40c7a87f313f0c548ef300e
                                 </div>
                                 
                                 <div class="radio">
