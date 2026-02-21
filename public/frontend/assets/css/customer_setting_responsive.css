@@ -1,0 +1,60 @@
+@media (max-width: 992px){
+    header{
+            display: none;
+        }
+
+        #heading_page{  
+            width: 100%;
+            padding-top: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            text-align: start;
+        }
+
+        #heading_page .breadcrumb {
+            display: flex ;
+            justify-content: center ;
+            align-items: center ;
+            text-align: center;
+        }
+
+        #heading_page .breadcrumb a{
+            margin-bottom: 3px;
+        }
+
+        #heading_page .breadcrumb h4{
+            padding-top: 5px;
+        }
+        
+        #customer .setting_content{
+            width: 100%;
+            box-shadow: none;
+            margin-top: 20px;
+        }
+
+        #customer .setting_content .card1,
+        #customer .setting_content .card2,
+        #customer .setting_content .card3{
+            width: 100%;
+        }
+
+        #customer .setting_content .card1 .image_upload{
+            padding-top: 20px;
+            margin-top: 0px;
+        }
+
+        #customer .setting_content .card1 .row,
+        #customer .setting_content .card2 .row,
+        #customer .setting_content .card3 .row{
+            box-shadow: none;
+        }
+
+        #customer .setting_content .card1 .info1 input{
+            width: 100%;
+        }
+
+        #customer .setting_menu .customer_navigation {
+            transform: translateY(0%);
+        }
+}

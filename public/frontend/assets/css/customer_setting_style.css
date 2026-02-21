@@ -1,0 +1,394 @@
+:root{
+    --gren-gray-scale-900: #002603;
+    --gren-gray-scale-800: #173b1a;
+    --gren-gray-scale-700: #2b572e;
+    --gren-gray-scale-600: #406b42;
+    --gren-gray-scale-500: #618062;
+    --gren-gray-scale-400: #7a997c;
+    --gren-gray-scale-300: #96b297;
+    --gren-gray-scale-200: #b4ccb4;
+    --gren-gray-scale-100: #dae5da;
+    --gren-gray-scale-50: #edf2ee;
+    --gray-scale-gray--900: #1a1a1a;
+    --gray-scale-gray--800: #333;
+    --gray-scale-gray--700: #4d4d4d;
+    --gray-scale-gray--600: #666;
+    --gray-scale-gray--500: #808080;
+    --gray-scale-gray--400: #999;
+    --gray-scale-gray--300: #b3b3b3;
+    --gray-scale-gray--200: #ccc;
+    --gray-scale-gray--100: #e6e6e6;
+    --gray-scale-gray--50: #f2f2f2;
+    --gray-scale-white: #fff;
+    --branding-success-bright: #84d187;
+    --branding-success: #00b207;
+    --branding-success-dark: #2c742f;
+    --branding-warning: #ff8a00;
+    --branding-error: #ea4b48;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Segoe Script", sans-serif;
+    --third-family: "Dancing Script", sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+#heading_page{  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff; 
+    border-bottom: 1px solid #ddd;
+}
+
+#heading_page .breadcrumb{
+    padding-top: 20px;
+}
+
+#heading_page .breadcrumb a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--400);
+    text-decoration: none;
+}
+
+#heading_page .breadcrumb a:hover{
+    color: #00B207;
+}
+
+#heading_page .breadcrumb span{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--400);
+}
+
+#heading_page .breadcrumb h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #00B207;
+}
+
+#customer .setting_content .card1{
+    padding: 20px;
+    border: 1px solid var(--gray-scale-gray--200);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#customer .setting_content .card1 .card-header{
+    border-bottom: 1px solid var(--gray-scale-gray--200);
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#customer .setting_content .card1 .card-header h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#customer .setting_content .card1 .row .info1{
+    padding-top: 10px;
+}
+
+#customer .setting_content .card1 .info1 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-top: 10px;
+    display: block;
+}
+
+#customer .setting_content .card1 .info1 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 90%;
+    height: 49px;
+}
+
+#customer .setting_content .card1 .info1 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#customer .setting_content .card1 .info1 .btn{
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#customer .setting_content .card1 .info1 .btn button{
+    background-color:#00B207; 
+    border-radius:40px; 
+    padding: 15px 60px; 
+    text-align:center;
+    color:white; 
+    border: none;
+}
+
+#customer .setting_content .card1 .info1 .btn button:hover{
+    background-color: white;
+    border: 1px solid #00B207;
+    color: #00B207;
+}
+
+#customer .setting_content .card1 .image_upload{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#customer .setting_content .card1 .image_upload .image_change{
+    margin-top: 10px;
+}
+
+#customer .setting_content .card1 .image_upload .image_change button{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #00B207;
+    background-color: #fff;
+    border: 1px solid #00B207;
+    border-radius: 43px;
+    padding: 10px 20px;
+}
+
+#customer .setting_content .card2{
+    padding: 20px;
+    border: 1px solid var(--gray-scale-gray--200);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#customer .setting_content .card2 .card-header{
+    border-bottom: 1px solid var(--gray-scale-gray--200);
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+#customer .setting_content .card2 .card-header h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#customer .card2 .col-xl-4 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#customer .card2 .col-xl-4 label span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--500);
+}
+
+#customer .card2 .col-xl-4 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#customer .card2 .col-xl-4 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#customer .card2 .col-xl-12 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#customer .card2 .col-xl-12 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#customer .card2 .col-xl-12 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#customer .card2 .col-xl-4 select{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#customer .card2 .col-xl-4 select:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#customer .card2 .col-xl-6 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#customer .card2 .col-xl-6 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#customer .card2 .col-xl-6 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#customer .card2 .btn{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: start;
+}
+
+#customer .card2 .btn button:hover{
+    background-color: white;
+    border: 1px solid #00B207;
+    color: #00B207;
+}
+
+#customer .card2 .btn button{
+    background-color:#00B207; 
+    border-radius:40px; 
+    padding: 15px 60px; 
+    text-align:center;
+    color:white; 
+    border: none;
+}
+
+#customer .setting_content .card3{
+    padding: 20px;
+    border: 1px solid var(--gray-scale-gray--200);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#customer .setting_content .card3 .card-header{
+    border-bottom: 1px solid var(--gray-scale-gray--200);
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#customer .setting_content .card3 .card-header h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#customer .setting_content .card3 .password_change label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-top: 10px;
+}
+
+#customer .setting_content .card3 .password_change .current_password,
+#customer .setting_content .card3 .password_change .new_password,
+#customer .setting_content .card3 .password_change .confirm_password {
+    position: relative;
+
+}
+
+#customer .setting_content .card3 .password_change input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+}
+
+#customer .setting_content .card3 .password_change  .form-control:focus{
+    border-color: #22c55e !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+#customer .setting_content .card3 .password_change .current_password .toggle-password,
+#customer .setting_content .card3 .password_change .new_password .toggle-password,
+#customer .setting_content .card3 .password_change .confirm_password .toggle-password {
+    position: absolute;
+    right: 25px;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#customer .setting_content .card3 .password_change .btn{
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#customer .setting_content .card3 .password_change .btn button{
+    background-color:#00B207; 
+    border-radius:40px; 
+    padding: 15px 60px; 
+    text-align:center;
+    color:white; 
+    border: none;
+}
+
+#customer .setting_content .card3 .password_change .btn button:hover{
+    background-color: white;
+    border: 1px solid #00B207;
+    color: #00B207;
+}
+
+#customer .row {
+    align-items: flex-start !important;
+}
+
+.setting_menu .customer_navigation{
+    position: sticky;
+}

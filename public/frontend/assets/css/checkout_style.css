@@ -1,0 +1,423 @@
+:root{
+    --gren-gray-scale-900: #002603;
+    --gren-gray-scale-800: #173b1a;
+    --gren-gray-scale-700: #2b572e;
+    --gren-gray-scale-600: #406b42;
+    --gren-gray-scale-500: #618062;
+    --gren-gray-scale-400: #7a997c;
+    --gren-gray-scale-300: #96b297;
+    --gren-gray-scale-200: #b4ccb4;
+    --gren-gray-scale-100: #dae5da;
+    --gren-gray-scale-50: #edf2ee;
+    --gray-scale-gray--900: #1a1a1a;
+    --gray-scale-gray--800: #333;
+    --gray-scale-gray--700: #4d4d4d;
+    --gray-scale-gray--600: #666;
+    --gray-scale-gray--500: #808080;
+    --gray-scale-gray--400: #999;
+    --gray-scale-gray--300: #b3b3b3;
+    --gray-scale-gray--200: #ccc;
+    --gray-scale-gray--100: #e6e6e6;
+    --gray-scale-gray--50: #f2f2f2;
+    --gray-scale-white: #fff;
+    --branding-success-bright: #84d187;
+    --branding-success: #00b207;
+    --branding-success-dark: #2c742f;
+    --branding-warning: #ff8a00;
+    --branding-error: #ea4b48;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Segoe Script", sans-serif;
+    --third-family: "Dancing Script", sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+#heading_page{  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff; 
+    border-bottom: 1px solid #ddd;
+}
+
+#heading_page .breadcrumb{
+    padding-top: 20px;
+}
+
+#heading_page .breadcrumb a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--400);
+    text-decoration: none;
+}
+
+#heading_page .breadcrumb a:hover{
+    color: #00B207;
+}
+
+#heading_page .breadcrumb span{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--400);
+}
+
+#heading_page .breadcrumb h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #00B207;
+}
+
+#checkout{
+    padding: 20px;
+}
+
+#checkout .billing_address{
+    width: 65%;
+}
+
+#checkout .billing_address h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-top: 30px;
+}
+
+#checkout .billing_address .col-xl-4 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#checkout .billing_address .col-xl-4 label span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--500);
+}
+
+#checkout .billing_address .col-xl-4 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#checkout .billing_address .col-xl-4 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#checkout .billing_address .col-xl-12 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#checkout .billing_address .col-xl-12 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#checkout .billing_address .col-xl-12 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#checkout .billing_address .col-xl-4 select{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#checkout .billing_address .col-xl-4 select:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#checkout .billing_address .col-xl-6 label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#checkout .billing_address .col-xl-6 input{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 49px;
+    background: var(--gray-scale-white);
+}
+
+#checkout .billing_address .col-xl-6 input:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#checkout .billing_address .radio .radio-label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#checkout .billing_address .radio .radio-label .tick{
+    display: none;
+}
+
+#checkout .billing_address .radio .radio-label .custom-radio{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+#checkout .billing_address .radio .radio-label .tick:checked + .custom-radio::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#checkout .billing_address .radio .radio-label h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--700);
+    margin-bottom: 30px;
+}
+
+#checkout .billing_address .col-xl-12 textarea{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 100px;
+    background: var(--gray-scale-white);
+}
+
+#checkout .billing_address .col-xl-12 textarea:focus{
+    outline: none;
+    border-color: #22c55e;
+}
+
+#checkout .order_summery{
+    border: 1px solid var(--gray-scale-gray--100);
+    border-radius: 8px;
+    padding: 24px;
+    width: 33%;
+    height: 100%;
+    background: var(--gray-scale-white);
+}
+
+
+#checkout .order_summery .col-xl-7 img{
+    width: 60px;
+    height: 60px;
+}
+
+#checkout .order_summery .col-xl-7 h6{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#checkout .order_summery .col-xl-5{
+    width: 27%;
+    margin-right: 53px;
+    text-align: end;
+}
+
+#checkout .order_summery .col-xl-5 span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#checkout .order_summery .info1{
+    padding-top: 10px;
+}
+
+#checkout .order_summery .info1 h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--700);
+}
+
+#checkout .order_summery .total{
+    display: flex;
+    padding-top: 10px;
+}
+
+#checkout .order_summery .total h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#checkout .order_summery .total input{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#checkout .order_summery .info_total h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--700);
+}
+
+#checkout .order_summery .amount_total{
+    display: flex;
+}
+
+#checkout .order_summery .amount_total h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--gray-scale-gray--900);
+}
+
+#checkout .order_summery .amount_total input{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--gray-scale-gray--900);
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#checkout .order_summery .payment{
+    padding-top: 20px;
+}
+
+#checkout .order_summery .payment h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--900);
+}
+
+#checkout .order_summery .payment .type .radio-label_payment{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#checkout .order_summery .payment .type .radio-label_payment .ticktype{
+    display: none;
+}
+
+#checkout .order_summery .payment .type .radio-label_payment .custom-radio_payment{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+#checkout .order_summery .payment .type .radio-label_payment .ticktype:checked + .custom-radio_payment::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#checkout .order_summery .payment .type h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray--700);
+    padding-top: 10px;
+}
+
+#checkout .order_summery button{
+    background-color:#00B207; 
+    border-radius:20px; 
+    padding: 15px 60px; 
+    text-align:center;
+    color:white; 
+    border: none;
+}
+
+#checkout .order_summery button:hover{
+    background-color: white;
+    border: 1px solid #00B207;
+    color: #00B207;
+}
+
+
+
