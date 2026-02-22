@@ -78,6 +78,7 @@
 
         #customer .row .product .image img{
             height: 100px;
+            padding-left: 10px;
         }
 
         #customer .row .product h4{
@@ -113,6 +114,17 @@
             align-items: center;
             text-align: center;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding-top: 0px;
+        }
+
+        #customer .row .out-stock{
+            width: 33%;
+            height: 170px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding-top: 0px;
         }
 
         #customer .row .stock .btn{
@@ -130,6 +142,7 @@
             width: 100%;
             justify-content: center;
             align-items: center;
+            padding-bottom: 20px;
         }
 
         #customer .row .cart .stock_btn{

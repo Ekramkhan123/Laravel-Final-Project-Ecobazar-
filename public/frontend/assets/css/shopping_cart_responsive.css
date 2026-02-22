@@ -56,7 +56,7 @@
 
         #shopping_cart .row .shop_product .row .product{
             width: 25%;
-            height: 100px;
+            height: 150px;
             display: block;
             text-align: center;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -76,12 +76,13 @@
 
         #shopping_cart .row .shop_product .row .Price{
             width: 25%;
-            height: 100px;
+            height: 150px;
             display: block;
             justify-content: center;
             align-items: center;
             text-align: center;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding-top: 30px;
         }
 
         #shopping_cart .row .shop_product .Price h4{
@@ -89,10 +90,11 @@
             font-size: 12px !important;
         }
 
-        #shopping_cart .row .shop_product .add{
+        #shopping_cart .row .shop_product .row .add{
             width: 25%;
-            height: 100px;
+            height: 150px;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding-top: 0px;
         }
 
         #shopping_cart .row .shop_product .row .add .button{
@@ -116,15 +118,16 @@
         #shopping_cart .row .subtotal{
             display: unset;
             width: 25%;
-            height: 100px;
-            padding: 0px;
+            height: 150px;
+            padding-bottom: 30px;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding-left: 5px;
         }
 
         #shopping_cart .row .shop_product .row .subtotal h4{
             font-size: 12px;
             padding-left: 10px;
-            padding-top: 30px;
+            padding-top: 10px;
             width: 50px;
             display: flex;
         }

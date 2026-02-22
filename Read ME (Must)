@@ -1,7 +1,8 @@
-1. For backend default account is "test@example.com" and the password is "password"
+1. For backend default account is "test@example.com" and the password is "password", but if you use the mySQL data 
+    named as "fp.sql" then admin account's email is "ekramkhan@gmail.com" and password is "ekramkhan@gmail.com".
 
-//Note: without logging to this account you would not be able to see role and permissions in backend. In order to see it you should loging to this account first and then be able to change the permissions and roles 
-of an account.//
+//Note: without logging to this account you would not be able to see role and permissions in backend. In order to see 
+it you should logging to this account first and then be able to change the permissions and roles of an account.//
 
 
 2. For database fb.sql is provided in database->backup named folder

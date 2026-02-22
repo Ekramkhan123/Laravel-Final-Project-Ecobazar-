@@ -41,7 +41,7 @@
                                         <div class="image">
                                             <img src="{{ asset('storage/' . $cart['image'] ?? '') }}" alt="">
                                         </div>
-                                        <h4>{{ $cart['name'] ?? '' }}</h4>
+                                        <h4>{{ $cart['title'] ?? '' }}</h4>
                                     </div>
                                     <div class="col-xl-2 Price">
                                         <h4>${{$cart['discount'] ? $cart['price'] - $cart['discount'] : $cart['price'] }}</h4>

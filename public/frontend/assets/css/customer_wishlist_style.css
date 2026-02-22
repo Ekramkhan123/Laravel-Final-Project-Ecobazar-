@@ -138,7 +138,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 #customer .row .Price h4{
@@ -163,7 +163,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 #customer .row .stock .btn{
@@ -190,7 +190,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 #customer .row .out-stock .btn{
@@ -217,7 +217,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #customer .row .cart .stock_btn{
@@ -256,6 +256,7 @@ body{
 #customer .row .cart .cross{
     padding-left: 20px;
     cursor: pointer;
+    padding-top: 0px;
 }
 
 #customer .row .cart .cross a{

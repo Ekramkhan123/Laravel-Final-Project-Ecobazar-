@@ -118,13 +118,13 @@ body{
 }
 
 #customer .row .shop_product .row .product .image img{
-    width: 200px;
+    width: 100px;
 }
 
 #customer .row .shop_product .row .product h4{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 150%;
     color: var(--gray-scale-gray--900);
     padding-left: 30px;
@@ -134,13 +134,13 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 #customer .row .shop_product .row .Price h4{
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 150%;
     color: var(--gray-scale-gray--900);
 }
@@ -150,7 +150,7 @@ body{
     justify-content: start;
     align-items: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #customer .row .shop_product .row .add .button{
@@ -180,7 +180,7 @@ body{
     height: 34px;
     border: none;
     padding-left: 15px;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 
@@ -188,7 +188,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 #customer .row .shop_product .row .subtotal h4{
